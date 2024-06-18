@@ -9,5 +9,5 @@ Stop button stops the animation and exits the animation.
 Info button opens help window.</p>
 <h3>Inspiration</h3>
 <p>The inspiration for this project came from a similar project I completed in Flash back in 2009 for my Diploma in Multimedia.</p>
-<p>Back then I hand drew each frame of the animation using my Wacom tablet. This time around I didn't feel I had enough time to realistically achieve that, so I used images from Adobe Stock.
+<p>Back then I hand drew each frame of the animation using my Wacom tablet. This time around I didn't feel I had enough time to realistically achieve that, so I cheated and used images from Adobe Stock.
 Perhaps I will add hand drawn frames in the future, along with a scrolling background :-)</p>
