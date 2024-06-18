@@ -141,7 +141,7 @@ def info_window():
     # sets the title of the new window
     info_window.title("Help")
  
-    # sets the geometry of toplevel
+    # sets the geometry of the new window
     info_window.geometry("600x150")
     info_window.resizable(False,False)
  
