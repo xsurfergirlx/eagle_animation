@@ -189,6 +189,7 @@ forward_sequence = tk.Button(window, image=forward_button, command=forward_image
 info_button = PhotoImage(file="images/info_btn.png")
 info_sequence = tk.Button(window, image=info_button, command=info_window)
 
+
 # display the components
 rewind_sequence.grid(row=7, column=2)
 play_sequence.grid(row=7, column=3)
