@@ -84,6 +84,7 @@ def show_next_image():
 
         # load the image and display it
         panel.Image = img
+        panel.configure(background="skyblue")
         panel["image"] = img
 
     window.after(50, show_next_image)
@@ -197,6 +198,7 @@ info_sequence.grid(row=7, column=7)
 
 # show the first image
 panel.Image = img
+panel.configure(background="skyblue")
 panel["image"] = img
 
 enable_button(play_sequence)
