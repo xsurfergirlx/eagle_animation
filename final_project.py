@@ -143,6 +143,7 @@ def info_window():
  
     # sets the geometry of toplevel
     info_window.geometry("600x150")
+    info_window.resizable(False,False)
  
     # Adding a new window to show help screen
     Label(info_window, 
