@@ -81,7 +81,6 @@ def show_next_image():
     if not is_paused.get():
         global img
         img = next(frame_list_itr)  # get the next image from the iterator   
-        print(img)
 
         # load the image and display it
         panel.Image = img
@@ -116,8 +115,7 @@ def stop_image():
 # function for fast forward button
 def forward_image():
     global img
-    img = next(frame_list_itr)  # get the next image from the iterator 
-    print(img)       
+    img = next(frame_list_itr)  # get the next image from the iterator     
 
     # load the image and display it
     panel.Image = img
@@ -127,8 +125,7 @@ def forward_image():
 # function for rewind button
 def rewind_image():
     global img
-    img = reversed(frame_list_itr)  # get the previous image from the iterator 
-    print(img)       
+    img = reversed(frame_list_itr)  # get the previous image from the iterator     
 
     # load the image and display it
     panel.Image = img
